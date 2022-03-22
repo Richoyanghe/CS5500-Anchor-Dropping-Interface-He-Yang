@@ -1,0 +1,678 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+    <button type="button" onclick="loadXMLDoc()">Get my CD collection</button>
+
+    <script>
+        function loadXMLDoc() {
+            var xmlhttp = new XMLHttpRequest();
+            xmlhttp.onreadystatechange = function () {
+                if (this.readyState == 4 && this.status == 200) {
+                    myFunction(this);
+                }
+            };
+            xmlhttp.open("GET", "beaver.raw.xml", true);
+            xmlhttp.send();
+        }
+
+        function myFunction(xml) {
+            let xmlDoc = xml.responseXML;
+            let nodes = getElementByXpath(xmlDoc, "//s")
+
+            let targetNodeList = [];
+            var result = nodes.iterateNext();
+            while (result) {
+                // console.log(result.childNodes[0].nodeValue);
+
+                let node = result.childNodes[0];
+                let chking = isAnchored(node);
+                if (chking.isFound) {
+                    let node = result.childNodes[0];
+                    targetNodeList.push({ node, chking });
+                }
+
+                result = nodes.iterateNext();
+            }
+
+            let parser = new DOMParser();
+            for (let temp of targetNodeList) {
+                let node = temp.node;
+                let result = temp.chking.result;
+                console.log({ result });
+                let tree = parser.parseFromString(`<root>${result}</root>`, "text/xml");
+                // for (let child of tree.firstChild.firstChild.childNodes) {
+                for (let i = 0; i < tree.firstChild.childNodes.length; i++) {
+                    let child = tree.firstChild.childNodes[i].cloneNode(true);
+                    node.parentElement.insertBefore(child, node);
+                }
+                node.parentElement.removeChild(node);
+            }
+
+            exportNode(xmlDoc);
+        }
+
+        function exportNode(xmlDoc) {
+            var anXMLSerializer = new XMLSerializer();
+            let xmlString = anXMLSerializer.serializeToString(xmlDoc);
+            console.log(xmlString)
+        }
+
+        function getElementByXpath(document, path) {
+            return document.evaluate(path, document, null, XPathResult.ANY_TYPE, null);
+        }
+
+        function isAnchored(node) {
+            let match = 0;
+            let text = node.nodeValue.trim();
+            let sentence = anchorList.shift();
+
+            let result = "";
+            for (let json of sentence) {
+                if (text.startsWith(json.text)) {
+                    text = text.substring(json.text.length).trim();
+                    match = (json.anchor != 0)
+                    result += (json.anchor != 0) ? `<anchor time="${json.anchor}"/>` : "";
+                    result += json.text;
+                }
+            }
+
+            if (match != 0) console.log(result)
+            return { isFound: (match != 0), result };
+        }
+    </script>
+
+
+    <script>
+        let anchored = [
+            [
+                [
+                    [
+                        {
+                            "text": "ᐧᐁᔥᑲᒡ",
+                            "anchor": "3810"
+                        },
+                        {
+                            "text": "ᐁᔥᒄ",
+                            "anchor": "0"
+                        },
+                        {
+                            "text": "ᐁ",
+                            "anchor": "0"
+                        },
+                        {
+                            "text": "ᒌ",
+                            "anchor": "1987"
+                        }
+                    ],
+                    [
+                        {
+                            "text": "ᐋᐧᐃᔦᔮᔨᒡ",
+                            "anchor": "1"
+                        },
+                        {
+                            "text": "ᐊᒥᔅᒄ",
+                            "anchor": "0"
+                        },
+                        {
+                            "text": "ᐅᓱᐃ",
+                            "anchor": "0"
+                        }
+                    ]
+                ]
+            ],
+            [
+                [
+                    [
+                        {
+                            "text": "ᒋᒋᔅᒉᔨᐦᑌᓈᐧᐋᐤ",
+                            "anchor": "0"
+                        },
+                        {
+                            "text": "ᐧᐁᔅ",
+                            "anchor": "2"
+                        },
+                        {
+                            "text": "ᐁ",
+                            "anchor": "0"
+                        }
+                    ],
+                    [
+                        {
+                            "text": "ᐋᐸᑎᓰᑦ",
+                            "anchor": "0"
+                        },
+                        {
+                            "text": "ᐊᒥᔅᒄ",
+                            "anchor": "0"
+                        },
+                        {
+                            "text": "ᐁ",
+                            "anchor": "3"
+                        },
+                        {
+                            "text": "ᑎᐱᔅᑳᔨᒡ",
+                            "anchor": "0"
+                        }
+                    ]
+                ]
+            ],
+            [
+                [
+                    [
+                        {
+                            "text": "ᐊᓐ",
+                            "anchor": "0"
+                        },
+                        {
+                            "text": "ᒫᒃ",
+                            "anchor": "0"
+                        },
+                        {
+                            "text": "ᐊᒥᔅᒄ",
+                            "anchor": "0"
+                        },
+                        {
+                            "text": "ᐁ",
+                            "anchor": "4"
+                        }
+                    ],
+                    [
+                        {
+                            "text": "ᒌᔑᑳᔨᒡ",
+                            "anchor": "0"
+                        },
+                        {
+                            "text": "ᓀᐹᑦ",
+                            "anchor": "0"
+                        }
+                    ]
+                ]
+            ],
+            [
+                [
+                    [
+                        {
+                            "text": "ᐯᔭᐧᑳᐤ",
+                            "anchor": "3810"
+                        },
+                        {
+                            "text": "ᓈᔥᒡ",
+                            "anchor": "0"
+                        },
+                        {
+                            "text": "ᐁ",
+                            "anchor": "0"
+                        },
+                        {
+                            "text": "ᒥᔪᑎᐱᔅᑳᒡ",
+                            "anchor": "0"
+                        },
+                        {
+                            "text": "ᑳ",
+                            "anchor": "0"
+                        },
+                        {
+                            "text": "ᐃᑌᔨᐦᑕᐦᒃ",
+                            "anchor": "0"
+                        },
+                        {
+                            "text": "ᐊᓐ",
+                            "anchor": "0"
+                        },
+                        {
+                            "text": "ᐊᒥᔅᒄ",
+                            "anchor": "0"
+                        },
+                        {
+                            "text": "ᒉ",
+                            "anchor": "3810"
+                        }
+                    ],
+                    [
+                        {
+                            "text": "ᓂᑑᐋᐸᑎᓰᑦ",
+                            "anchor": "3810"
+                        },
+                        {
+                            "text": "ᐧᐄᔨᒡ",
+                            "anchor": "0"
+                        },
+                        {
+                            "text": "ᐁ",
+                            "anchor": "0"
+                        },
+                        {
+                            "text": "ᒌ",
+                            "anchor": "3810"
+                        },
+                        {
+                            "text": "ᐧᐄ",
+                            "anchor": "0"
+                        }
+                    ],
+                    [
+                        {
+                            "text": "ᓂᑑᐅᔑᐦᑖᑦ",
+                            "anchor": "10"
+                        }
+                    ]
+                ]
+            ],
+            [
+                [
+                    [
+                        {
+                            "text": "ᒉᒥᑲᒫᑦ",
+                            "anchor": "0"
+                        },
+                        {
+                            "text": "ᒥᔥᑎᒄᐦ",
+                            "anchor": "20"
+                        },
+                        {
+                            "text": "ᓈᔥᒡ",
+                            "anchor": "0"
+                        },
+                        {
+                            "text": "ᐁ",
+                            "anchor": "0"
+                        }
+                    ],
+                    [
+                        {
+                            "text": "ᒥᐦᒑᔅᑯᓯᔨᒡᐦ",
+                            "anchor": "0"
+                        },
+                        {
+                            "text": "ᑌᐦᑯᐦᐅᑯᑦ",
+                            "anchor": "0"
+                        },
+                        {
+                            "text": "ᐊᓂᔫᐦ",
+                            "anchor": "0"
+                        },
+                        {
+                            "text": "ᒥᔥᑎᒄᐦ",
+                            "anchor": "0"
+                        },
+                        {
+                            "text": "ᓂᐦᐋᐤ",
+                            "anchor": "0"
+                        },
+                        {
+                            "text": "ᐊᓂᑦᐦ",
+                            "anchor": "0"
+                        },
+                        {
+                            "text": "ᐅᓱᐦᒡ",
+                            "anchor": "0"
+                        }
+                    ]
+                ]
+            ],
+            [
+                [
+                    [
+                        {
+                            "text": "ᓇᒧᐃ",
+                            "anchor": "0"
+                        },
+                        {
+                            "text": "ᐅᐦᒋ",
+                            "anchor": "0"
+                        },
+                        {
+                            "text": "ᐯᐦᑖᑰ",
+                            "anchor": "0"
+                        },
+                        {
+                            "text": "ᐊᐧᐁᔫᐦ",
+                            "anchor": "0"
+                        },
+                        {
+                            "text": "ᐋᑕ",
+                            "anchor": "0"
+                        },
+                        {
+                            "text": "ᐁ",
+                            "anchor": "0"
+                        },
+                        {
+                            "text": "ᒌ",
+                            "anchor": "0"
+                        },
+                        {
+                            "text": "ᑖᒋᐦᐧᑫᑦ",
+                            "anchor": "0"
+                        },
+                        {
+                            "text": "ᐧᐄᒋᐦᐄᒄ",
+                            "anchor": "0"
+                        }
+                    ],
+                    [
+                        {
+                            "text": "ᐧᐄᒋᐦᐄᒄ",
+                            "anchor": "0"
+                        },
+                        {
+                            "text": "ᓇᒧᐃ",
+                            "anchor": "0"
+                        },
+                        {
+                            "text": "ᓂᒌ",
+                            "anchor": "0"
+                        },
+                        {
+                            "text": "ᐋᐦᒌᓐ",
+                            "anchor": "0"
+                        }
+                    ]
+                ]
+            ],
+            [
+                [
+                    [
+                        {
+                            "text": "ᓇᒧᐃ",
+                            "anchor": "0"
+                        },
+                        {
+                            "text": "ᒫᒃ",
+                            "anchor": "0"
+                        },
+                        {
+                            "text": "ᐅᐦᒋ",
+                            "anchor": "0"
+                        },
+                        {
+                            "text": "ᐧᐄᒋᐦᐄᑰ",
+                            "anchor": "0"
+                        }
+                    ],
+                    [
+                        {
+                            "text": "ᐊᐧᐁᔫᐦ",
+                            "anchor": "0"
+                        },
+                        {
+                            "text": "ᒥᓯᐧᐁ",
+                            "anchor": "0"
+                        },
+                        {
+                            "text": "ᐊᐧᐁᔫᐦ",
+                            "anchor": "0"
+                        },
+                        {
+                            "text": "ᐁ",
+                            "anchor": "0"
+                        },
+                        {
+                            "text": "ᒌ",
+                            "anchor": "0"
+                        },
+                        {
+                            "text": "ᓂᐹᔨᒡᐦ",
+                            "anchor": "0"
+                        },
+                        {
+                            "text": "ᐁ",
+                            "anchor": "0"
+                        },
+                        {
+                            "text": "ᑎᐱᔅᑳᔨᒡ",
+                            "anchor": "0"
+                        }
+                    ]
+                ]
+            ],
+            [
+                [
+                    [
+                        {
+                            "text": "ᐱᔦᑖᐱᓃᔨᒡ",
+                            "anchor": "0"
+                        },
+                        {
+                            "text": "ᐱᔦᑖᔥᑎᒧᑌᔨᒡ",
+                            "anchor": "0"
+                        }
+                    ],
+                    [
+                        {
+                            "text": "ᒋᔐᔮᒄᐦ",
+                            "anchor": "0"
+                        },
+                        {
+                            "text": "ᐁ",
+                            "anchor": "0"
+                        },
+                        {
+                            "text": "ᐱᐹᒧᑌᔨᒡᐦ",
+                            "anchor": "0"
+                        },
+                        {
+                            "text": "ᐁᑯᐦ",
+                            "anchor": "0"
+                        }
+                    ],
+                    [
+                        {
+                            "text": "ᐁᑖᑦ",
+                            "anchor": "0"
+                        },
+                        {
+                            "text": "ᐧᐄᒌᐦ",
+                            "anchor": "0"
+                        },
+                        {
+                            "text": "ᒫ",
+                            "anchor": "0"
+                        },
+                        {
+                            "text": "ᓂᑕᐦᑯᐦᐁᓐ",
+                            "anchor": "0"
+                        }
+                    ],
+                    [
+                        {
+                            "text": "ᐧᐁᓯᓐ",
+                            "anchor": "0"
+                        },
+                        {
+                            "text": "ᓂᓱᐃ",
+                            "anchor": "0"
+                        }
+                    ]
+                ]
+            ],
+            [
+                [
+                    [
+                        {
+                            "text": "ᐁᑯᐦ",
+                            "anchor": "0"
+                        },
+                        {
+                            "text": "ᑮᐹ",
+                            "anchor": "0"
+                        },
+                        {
+                            "text": "ᐧᐋᒋᐦᐄᑯᑦ",
+                            "anchor": "0"
+                        },
+                        {
+                            "text": "ᐊᓂᔫᐦ",
+                            "anchor": "0"
+                        }
+                    ],
+                    [
+                        {
+                            "text": "ᒋᔐᔮᒄᐦ",
+                            "anchor": "0"
+                        },
+                        {
+                            "text": "ᐧᐃᔮᐸᐦᑎᒥᔨᒡᐦ",
+                            "anchor": "0"
+                        },
+                        {
+                            "text": "ᐊᓂᔮ",
+                            "anchor": "0"
+                        },
+                        {
+                            "text": "ᐅᓱᐃ",
+                            "anchor": "0"
+                        },
+                        {
+                            "text": "ᒥᒎᓐ",
+                            "anchor": "0"
+                        },
+                        {
+                            "text": "ᐁ",
+                            "anchor": "0"
+                        },
+                        {
+                            "text": "ᓂᐱᑳᔒᔨᒡ",
+                            "anchor": "0"
+                        }
+                    ]
+                ]
+            ],
+            [
+                [
+                    [
+                        {
+                            "text": "ᐧᐁᓵ",
+                            "anchor": "0"
+                        },
+                        {
+                            "text": "ᐄᑎᑰ",
+                            "anchor": "0"
+                        },
+                        {
+                            "text": "ᒥᒎᓐ",
+                            "anchor": "0"
+                        },
+                        {
+                            "text": "ᐧᐁᓯᓐ",
+                            "anchor": "0"
+                        },
+                        {
+                            "text": "ᓂᐱᑳᔔ",
+                            "anchor": "0"
+                        },
+                        {
+                            "text": "ᒋᓱᐃ",
+                            "anchor": "0"
+                        }
+                    ]
+                ]
+            ],
+            [
+                [
+                    [
+                        {
+                            "text": "ᒥᔮᑐᑦ",
+                            "anchor": "0"
+                        },
+                        {
+                            "text": "ᐊᓐ",
+                            "anchor": "0"
+                        },
+                        {
+                            "text": "ᐊᒥᔅᒄ",
+                            "anchor": "0"
+                        }
+                    ]
+                ]
+            ],
+            [
+                [
+                    [
+                        {
+                            "text": "ᐁᑳᐧᐄ",
+                            "anchor": "0"
+                        },
+                        {
+                            "text": "ᒫᑑᐦ",
+                            "anchor": "0"
+                        },
+                        {
+                            "text": "ᐄᑎᑰ",
+                            "anchor": "0"
+                        },
+                        {
+                            "text": "ᐊᓂᔫᐦ",
+                            "anchor": "0"
+                        }
+                    ],
+                    [
+                        {
+                            "text": "ᒋᔐᔮᒄᐦ",
+                            "anchor": "0"
+                        },
+                        {
+                            "text": "ᓄᐧᐃᒡ",
+                            "anchor": "0"
+                        },
+                        {
+                            "text": "ᐧᐁᓯᓐ",
+                            "anchor": "0"
+                        },
+                        {
+                            "text": "ᒋᑲ",
+                            "anchor": "0"
+                        }
+                    ],
+                    [
+                        {
+                            "text": "ᐃᔮᐧᑳᑎᓯᓐ",
+                            "anchor": "0"
+                        },
+                        {
+                            "text": "ᐁ",
+                            "anchor": "0"
+                        },
+                        {
+                            "text": "ᐱᐹᒥᔥᑳᔨᓐ",
+                            "anchor": "0"
+                        }
+                    ],
+                    [
+                        {
+                            "text": "ᒥᔦᔨᐦᑦᐦ",
+                            "anchor": "0"
+                        },
+                        {
+                            "text": "ᒫ",
+                            "anchor": "0"
+                        },
+                        {
+                            "text": "ᑏᑯᒡ",
+                            "anchor": "0"
+                        }
+                    ]
+                ]
+            ]
+        ]
+
+        function serialize(pages) {
+            let result = [];
+            for (let page of pages) {
+                for (let paragraph of page) {
+                    for (let sentence of paragraph) {
+                        result.push(sentence);
+                    }
+                }
+            }
+            return result;
+        }
+
+        let anchorList = serialize(anchored)
+
+
+    </script>
+</body>
+
+</html>

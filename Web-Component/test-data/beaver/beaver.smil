@@ -1,0 +1,472 @@
+<smil xmlns="http://www.w3.org/ns/SMIL" version="3.0">
+    <body>
+        <par id="par-t0b0d0p0s0w0">
+            <text src="beaver.xml#t0b0d0p0s0w0"/>
+            <audio src="beaver.mp3" clipBegin="0.195" clipEnd="1.1400000000000001"/>
+        </par>
+        <par id="par-t0b0d0p0s0w1">
+            <text src="beaver.xml#t0b0d0p0s0w1"/>
+            <audio src="beaver.mp3" clipBegin="1.1400000000000001" clipEnd="1.48"/>
+        </par>
+        <par id="par-t0b0d0p0s0w2">
+            <text src="beaver.xml#t0b0d0p0s0w2"/>
+            <audio src="beaver.mp3" clipBegin="1.48" clipEnd="1.6"/>
+        </par>
+        <par id="par-t0b0d0p0s0w3">
+            <text src="beaver.xml#t0b0d0p0s0w3"/>
+            <audio src="beaver.mp3" clipBegin="1.6" clipEnd="1.84"/>
+        </par>
+        <par id="par-t0b0d0p0s1w0">
+            <text src="beaver.xml#t0b0d0p0s1w0"/>
+            <audio src="beaver.mp3" clipBegin="1.84" clipEnd="2.895"/>
+        </par>
+        <par id="par-t0b0d0p0s1w1">
+            <text src="beaver.xml#t0b0d0p0s1w1"/>
+            <audio src="beaver.mp3" clipBegin="2.895" clipEnd="3.61"/>
+        </par>
+        <par id="par-t0b0d0p0s1w2">
+            <text src="beaver.xml#t0b0d0p0s1w2"/>
+            <audio src="beaver.mp3" clipBegin="3.61" clipEnd="4.73"/>
+        </par>
+        <par id="par-t0b0d1p0s0w0">
+            <text src="beaver.xml#t0b0d1p0s0w0"/>
+            <audio src="beaver.mp3" clipBegin="4.73" clipEnd="6.69"/>
+        </par>
+        <par id="par-t0b0d1p0s0w1">
+            <text src="beaver.xml#t0b0d1p0s0w1"/>
+            <audio src="beaver.mp3" clipBegin="6.69" clipEnd="7.1850000000000005"/>
+        </par>
+        <par id="par-t0b0d1p0s0w2">
+            <text src="beaver.xml#t0b0d1p0s0w2"/>
+            <audio src="beaver.mp3" clipBegin="7.1850000000000005" clipEnd="7.45"/>
+        </par>
+        <par id="par-t0b0d1p0s1w0">
+            <text src="beaver.xml#t0b0d1p0s1w0"/>
+            <audio src="beaver.mp3" clipBegin="7.45" clipEnd="8.21"/>
+        </par>
+        <par id="par-t0b0d1p0s1w1">
+            <text src="beaver.xml#t0b0d1p0s1w1"/>
+            <audio src="beaver.mp3" clipBegin="8.21" clipEnd="8.670000000000002"/>
+        </par>
+        <par id="par-t0b0d1p0s1w2">
+            <text src="beaver.xml#t0b0d1p0s1w2"/>
+            <audio src="beaver.mp3" clipBegin="8.670000000000002" clipEnd="8.78"/>
+        </par>
+        <par id="par-t0b0d1p0s1w3">
+            <text src="beaver.xml#t0b0d1p0s1w3"/>
+            <audio src="beaver.mp3" clipBegin="8.78" clipEnd="10.085"/>
+        </par>
+        <par id="par-t0b0d2p0s0w0">
+            <text src="beaver.xml#t0b0d2p0s0w0"/>
+            <audio src="beaver.mp3" clipBegin="10.085" clipEnd="10.76"/>
+        </par>
+        <par id="par-t0b0d2p0s0w1">
+            <text src="beaver.xml#t0b0d2p0s0w1"/>
+            <audio src="beaver.mp3" clipBegin="10.76" clipEnd="11.01"/>
+        </par>
+        <par id="par-t0b0d2p0s0w2">
+            <text src="beaver.xml#t0b0d2p0s0w2"/>
+            <audio src="beaver.mp3" clipBegin="11.01" clipEnd="11.525"/>
+        </par>
+        <par id="par-t0b0d2p0s0w3">
+            <text src="beaver.xml#t0b0d2p0s0w3"/>
+            <audio src="beaver.mp3" clipBegin="11.525" clipEnd="11.73"/>
+        </par>
+        <par id="par-t0b0d2p0s1w0">
+            <text src="beaver.xml#t0b0d2p0s1w0"/>
+            <audio src="beaver.mp3" clipBegin="11.73" clipEnd="12.585"/>
+        </par>
+        <par id="par-t0b0d2p0s1w1">
+            <text src="beaver.xml#t0b0d2p0s1w1"/>
+            <audio src="beaver.mp3" clipBegin="12.585" clipEnd="13.96"/>
+        </par>
+        <par id="par-t0b0d3p0s0w0">
+            <text src="beaver.xml#t0b0d3p0s0w0"/>
+            <audio src="beaver.mp3" clipBegin="13.96" clipEnd="14.9"/>
+        </par>
+        <par id="par-t0b0d3p0s0w1">
+            <text src="beaver.xml#t0b0d3p0s0w1"/>
+            <audio src="beaver.mp3" clipBegin="14.9" clipEnd="15.31"/>
+        </par>
+        <par id="par-t0b0d3p0s0w2">
+            <text src="beaver.xml#t0b0d3p0s0w2"/>
+            <audio src="beaver.mp3" clipBegin="15.31" clipEnd="15.4"/>
+        </par>
+        <par id="par-t0b0d3p0s0w3">
+            <text src="beaver.xml#t0b0d3p0s0w3"/>
+            <audio src="beaver.mp3" clipBegin="15.4" clipEnd="16.330000000000002"/>
+        </par>
+        <par id="par-t0b0d3p0s0w4">
+            <text src="beaver.xml#t0b0d3p0s0w4"/>
+            <audio src="beaver.mp3" clipBegin="16.330000000000002" clipEnd="16.535"/>
+        </par>
+        <par id="par-t0b0d3p0s0w5">
+            <text src="beaver.xml#t0b0d3p0s0w5"/>
+            <audio src="beaver.mp3" clipBegin="16.535" clipEnd="17.400000000000002"/>
+        </par>
+        <par id="par-t0b0d3p0s0w6">
+            <text src="beaver.xml#t0b0d3p0s0w6"/>
+            <audio src="beaver.mp3" clipBegin="17.400000000000002" clipEnd="17.55"/>
+        </par>
+        <par id="par-t0b0d3p0s0w7">
+            <text src="beaver.xml#t0b0d3p0s0w7"/>
+            <audio src="beaver.mp3" clipBegin="17.55" clipEnd="17.98"/>
+        </par>
+        <par id="par-t0b0d3p0s0w8">
+            <text src="beaver.xml#t0b0d3p0s0w8"/>
+            <audio src="beaver.mp3" clipBegin="17.98" clipEnd="18.11"/>
+        </par>
+        <par id="par-t0b0d3p0s1w0">
+            <text src="beaver.xml#t0b0d3p0s1w0"/>
+            <audio src="beaver.mp3" clipBegin="18.11" clipEnd="19.605"/>
+        </par>
+        <par id="par-t0b0d3p0s1w1">
+            <text src="beaver.xml#t0b0d3p0s1w1"/>
+            <audio src="beaver.mp3" clipBegin="19.605" clipEnd="20.485"/>
+        </par>
+        <par id="par-t0b0d3p0s1w2">
+            <text src="beaver.xml#t0b0d3p0s1w2"/>
+            <audio src="beaver.mp3" clipBegin="20.485" clipEnd="20.68"/>
+        </par>
+        <par id="par-t0b0d3p0s1w3">
+            <text src="beaver.xml#t0b0d3p0s1w3"/>
+            <audio src="beaver.mp3" clipBegin="20.68" clipEnd="20.89"/>
+        </par>
+        <par id="par-t0b0d3p0s1w4">
+            <text src="beaver.xml#t0b0d3p0s1w4"/>
+            <audio src="beaver.mp3" clipBegin="20.89" clipEnd="21.14"/>
+        </par>
+        <par id="par-t0b0d3p0s2w0">
+            <text src="beaver.xml#t0b0d3p0s2w0"/>
+            <audio src="beaver.mp3" clipBegin="21.14" clipEnd="22.57"/>
+        </par>
+        <par id="par-t0b0d4p0s0w0">
+            <text src="beaver.xml#t0b0d4p0s0w0"/>
+            <audio src="beaver.mp3" clipBegin="22.57" clipEnd="23.79"/>
+        </par>
+        <par id="par-t0b0d4p0s0w1">
+            <text src="beaver.xml#t0b0d4p0s0w1"/>
+            <audio src="beaver.mp3" clipBegin="23.79" clipEnd="24.54"/>
+        </par>
+        <par id="par-t0b0d4p0s0w2">
+            <text src="beaver.xml#t0b0d4p0s0w2"/>
+            <audio src="beaver.mp3" clipBegin="24.54" clipEnd="25.13"/>
+        </par>
+        <par id="par-t0b0d4p0s0w3">
+            <text src="beaver.xml#t0b0d4p0s0w3"/>
+            <audio src="beaver.mp3" clipBegin="25.13" clipEnd="25.21"/>
+        </par>
+        <par id="par-t0b0d4p0s1w0">
+            <text src="beaver.xml#t0b0d4p0s1w0"/>
+            <audio src="beaver.mp3" clipBegin="25.21" clipEnd="26.845"/>
+        </par>
+        <par id="par-t0b0d4p0s1w1">
+            <text src="beaver.xml#t0b0d4p0s1w1"/>
+            <audio src="beaver.mp3" clipBegin="26.845" clipEnd="28.240000000000002"/>
+        </par>
+        <par id="par-t0b0d4p0s1w2">
+            <text src="beaver.xml#t0b0d4p0s1w2"/>
+            <audio src="beaver.mp3" clipBegin="28.240000000000002" clipEnd="28.48"/>
+        </par>
+        <par id="par-t0b0d4p0s1w3">
+            <text src="beaver.xml#t0b0d4p0s1w3"/>
+            <audio src="beaver.mp3" clipBegin="28.48" clipEnd="29.060000000000002"/>
+        </par>
+        <par id="par-t0b0d4p0s1w4">
+            <text src="beaver.xml#t0b0d4p0s1w4"/>
+            <audio src="beaver.mp3" clipBegin="29.060000000000002" clipEnd="29.6"/>
+        </par>
+        <par id="par-t0b0d4p0s1w5">
+            <text src="beaver.xml#t0b0d4p0s1w5"/>
+            <audio src="beaver.mp3" clipBegin="29.6" clipEnd="29.85"/>
+        </par>
+        <par id="par-t0b0d4p0s1w6">
+            <text src="beaver.xml#t0b0d4p0s1w6"/>
+            <audio src="beaver.mp3" clipBegin="29.85" clipEnd="31.14"/>
+        </par>
+        <par id="par-t0b0d5p0s0w0">
+            <text src="beaver.xml#t0b0d5p0s0w0"/>
+            <audio src="beaver.mp3" clipBegin="31.14" clipEnd="32.1"/>
+        </par>
+        <par id="par-t0b0d5p0s0w1">
+            <text src="beaver.xml#t0b0d5p0s0w1"/>
+            <audio src="beaver.mp3" clipBegin="32.1" clipEnd="32.35"/>
+        </par>
+        <par id="par-t0b0d5p0s0w2">
+            <text src="beaver.xml#t0b0d5p0s0w2"/>
+            <audio src="beaver.mp3" clipBegin="32.35" clipEnd="32.99"/>
+        </par>
+        <par id="par-t0b0d5p0s0w3">
+            <text src="beaver.xml#t0b0d5p0s0w3"/>
+            <audio src="beaver.mp3" clipBegin="32.99" clipEnd="33.6"/>
+        </par>
+        <par id="par-t0b0d5p0s0w4">
+            <text src="beaver.xml#t0b0d5p0s0w4"/>
+            <audio src="beaver.mp3" clipBegin="33.6" clipEnd="34.04"/>
+        </par>
+        <par id="par-t0b0d5p0s0w5">
+            <text src="beaver.xml#t0b0d5p0s0w5"/>
+            <audio src="beaver.mp3" clipBegin="34.04" clipEnd="34.14"/>
+        </par>
+        <par id="par-t0b0d5p0s0w6">
+            <text src="beaver.xml#t0b0d5p0s0w6"/>
+            <audio src="beaver.mp3" clipBegin="34.14" clipEnd="34.35"/>
+        </par>
+        <par id="par-t0b0d5p0s0w7">
+            <text src="beaver.xml#t0b0d5p0s0w7"/>
+            <audio src="beaver.mp3" clipBegin="34.35" clipEnd="35.504999999999995"/>
+        </par>
+        <par id="par-t0b0d5p0s0w8">
+            <text src="beaver.xml#t0b0d5p0s0w8"/>
+            <audio src="beaver.mp3" clipBegin="35.504999999999995" clipEnd="36.83"/>
+        </par>
+        <par id="par-t0b0d5p0s1w0">
+            <text src="beaver.xml#t0b0d5p0s1w0"/>
+            <audio src="beaver.mp3" clipBegin="36.83" clipEnd="38.065"/>
+        </par>
+        <par id="par-t0b0d5p0s1w1">
+            <text src="beaver.xml#t0b0d5p0s1w1"/>
+            <audio src="beaver.mp3" clipBegin="38.065" clipEnd="38.74"/>
+        </par>
+        <par id="par-t0b0d5p0s1w2">
+            <text src="beaver.xml#t0b0d5p0s1w2"/>
+            <audio src="beaver.mp3" clipBegin="38.74" clipEnd="39.04"/>
+        </par>
+        <par id="par-t0b0d5p0s1w3">
+            <text src="beaver.xml#t0b0d5p0s1w3"/>
+            <audio src="beaver.mp3" clipBegin="39.04" clipEnd="40.315"/>
+        </par>
+        <par id="par-t0b0d6p0s0w0">
+            <text src="beaver.xml#t0b0d6p0s0w0"/>
+            <audio src="beaver.mp3" clipBegin="40.315" clipEnd="41.19"/>
+        </par>
+        <par id="par-t0b0d6p0s0w1">
+            <text src="beaver.xml#t0b0d6p0s0w1"/>
+            <audio src="beaver.mp3" clipBegin="41.19" clipEnd="41.49"/>
+        </par>
+        <par id="par-t0b0d6p0s0w2">
+            <text src="beaver.xml#t0b0d6p0s0w2"/>
+            <audio src="beaver.mp3" clipBegin="41.49" clipEnd="41.77"/>
+        </par>
+        <par id="par-t0b0d6p0s0w3">
+            <text src="beaver.xml#t0b0d6p0s0w3"/>
+            <audio src="beaver.mp3" clipBegin="41.77" clipEnd="42.36"/>
+        </par>
+        <par id="par-t0b0d6p0s1w0">
+            <text src="beaver.xml#t0b0d6p0s1w0"/>
+            <audio src="beaver.mp3" clipBegin="42.36" clipEnd="43.51"/>
+        </par>
+        <par id="par-t0b0d6p0s1w1">
+            <text src="beaver.xml#t0b0d6p0s1w1"/>
+            <audio src="beaver.mp3" clipBegin="43.51" clipEnd="44.33"/>
+        </par>
+        <par id="par-t0b0d6p0s1w2">
+            <text src="beaver.xml#t0b0d6p0s1w2"/>
+            <audio src="beaver.mp3" clipBegin="44.33" clipEnd="44.87"/>
+        </par>
+        <par id="par-t0b0d6p0s1w3">
+            <text src="beaver.xml#t0b0d6p0s1w3"/>
+            <audio src="beaver.mp3" clipBegin="44.87" clipEnd="44.980000000000004"/>
+        </par>
+        <par id="par-t0b0d6p0s1w4">
+            <text src="beaver.xml#t0b0d6p0s1w4"/>
+            <audio src="beaver.mp3" clipBegin="44.980000000000004" clipEnd="45.160000000000004"/>
+        </par>
+        <par id="par-t0b0d6p0s1w5">
+            <text src="beaver.xml#t0b0d6p0s1w5"/>
+            <audio src="beaver.mp3" clipBegin="45.160000000000004" clipEnd="45.78"/>
+        </par>
+        <par id="par-t0b0d6p0s1w6">
+            <text src="beaver.xml#t0b0d6p0s1w6"/>
+            <audio src="beaver.mp3" clipBegin="45.78" clipEnd="45.88"/>
+        </par>
+        <par id="par-t0b0d6p0s1w7">
+            <text src="beaver.xml#t0b0d6p0s1w7"/>
+            <audio src="beaver.mp3" clipBegin="45.88" clipEnd="47.15"/>
+        </par>
+        <par id="par-t0b0d7p0s0w0">
+            <text src="beaver.xml#t0b0d7p0s0w0"/>
+            <audio src="beaver.mp3" clipBegin="47.15" clipEnd="48.905"/>
+        </par>
+        <par id="par-t0b0d7p0s0w1">
+            <text src="beaver.xml#t0b0d7p0s0w1"/>
+            <audio src="beaver.mp3" clipBegin="48.905" clipEnd="50.17"/>
+        </par>
+        <par id="par-t0b0d7p0s1w0">
+            <text src="beaver.xml#t0b0d7p0s1w0"/>
+            <audio src="beaver.mp3" clipBegin="50.17" clipEnd="50.910000000000004"/>
+        </par>
+        <par id="par-t0b0d7p0s1w1">
+            <text src="beaver.xml#t0b0d7p0s1w1"/>
+            <audio src="beaver.mp3" clipBegin="50.910000000000004" clipEnd="51.02"/>
+        </par>
+        <par id="par-t0b0d7p0s1w2">
+            <text src="beaver.xml#t0b0d7p0s1w2"/>
+            <audio src="beaver.mp3" clipBegin="51.02" clipEnd="52.535"/>
+        </par>
+        <par id="par-t0b0d7p0s1w3">
+            <text src="beaver.xml#t0b0d7p0s1w3"/>
+            <audio src="beaver.mp3" clipBegin="52.535" clipEnd="53.410000000000004"/>
+        </par>
+        <par id="par-t0b0d7p0s2w0">
+            <text src="beaver.xml#t0b0d7p0s2w0"/>
+            <audio src="beaver.mp3" clipBegin="53.410000000000004" clipEnd="54.265"/>
+        </par>
+        <par id="par-t0b0d7p0s2w1">
+            <text src="beaver.xml#t0b0d7p0s2w1"/>
+            <audio src="beaver.mp3" clipBegin="54.265" clipEnd="55.11"/>
+        </par>
+        <par id="par-t0b0d7p0s2w2">
+            <text src="beaver.xml#t0b0d7p0s2w2"/>
+            <audio src="beaver.mp3" clipBegin="55.11" clipEnd="55.7"/>
+        </par>
+        <par id="par-t0b0d7p0s2w3">
+            <text src="beaver.xml#t0b0d7p0s2w3"/>
+            <audio src="beaver.mp3" clipBegin="55.7" clipEnd="56.52"/>
+        </par>
+        <par id="par-t0b0d7p0s3w0">
+            <text src="beaver.xml#t0b0d7p0s3w0"/>
+            <audio src="beaver.mp3" clipBegin="56.52" clipEnd="56.9"/>
+        </par>
+        <par id="par-t0b0d7p0s3w1">
+            <text src="beaver.xml#t0b0d7p0s3w1"/>
+            <audio src="beaver.mp3" clipBegin="56.9" clipEnd="57.43"/>
+        </par>
+        <par id="par-t0b0d8p0s0w0">
+            <text src="beaver.xml#t0b0d8p0s0w0"/>
+            <audio src="beaver.mp3" clipBegin="57.43" clipEnd="58.325"/>
+        </par>
+        <par id="par-t0b0d8p0s0w1">
+            <text src="beaver.xml#t0b0d8p0s0w1"/>
+            <audio src="beaver.mp3" clipBegin="58.325" clipEnd="59.56"/>
+        </par>
+        <par id="par-t0b0d8p0s0w2">
+            <text src="beaver.xml#t0b0d8p0s0w2"/>
+            <audio src="beaver.mp3" clipBegin="59.56" clipEnd="60.13"/>
+        </par>
+        <par id="par-t0b0d8p0s0w3">
+            <text src="beaver.xml#t0b0d8p0s0w3"/>
+            <audio src="beaver.mp3" clipBegin="60.13" clipEnd="60.52"/>
+        </par>
+        <par id="par-t0b0d8p0s1w0">
+            <text src="beaver.xml#t0b0d8p0s1w0"/>
+            <audio src="beaver.mp3" clipBegin="60.52" clipEnd="61.515"/>
+        </par>
+        <par id="par-t0b0d8p0s1w1">
+            <text src="beaver.xml#t0b0d8p0s1w1"/>
+            <audio src="beaver.mp3" clipBegin="61.515" clipEnd="62.78"/>
+        </par>
+        <par id="par-t0b0d8p0s1w2">
+            <text src="beaver.xml#t0b0d8p0s1w2"/>
+            <audio src="beaver.mp3" clipBegin="62.78" clipEnd="63.120000000000005"/>
+        </par>
+        <par id="par-t0b0d8p0s1w3">
+            <text src="beaver.xml#t0b0d8p0s1w3"/>
+            <audio src="beaver.mp3" clipBegin="63.120000000000005" clipEnd="63.660000000000004"/>
+        </par>
+        <par id="par-t0b0d8p0s1w4">
+            <text src="beaver.xml#t0b0d8p0s1w4"/>
+            <audio src="beaver.mp3" clipBegin="63.660000000000004" clipEnd="64.19"/>
+        </par>
+        <par id="par-t0b0d8p0s1w5">
+            <text src="beaver.xml#t0b0d8p0s1w5"/>
+            <audio src="beaver.mp3" clipBegin="64.19" clipEnd="64.28"/>
+        </par>
+        <par id="par-t0b0d8p0s1w6">
+            <text src="beaver.xml#t0b0d8p0s1w6"/>
+            <audio src="beaver.mp3" clipBegin="64.28" clipEnd="65.69999999999999"/>
+        </par>
+        <par id="par-t0b0d9p0s0w0">
+            <text src="beaver.xml#t0b0d9p0s0w0"/>
+            <audio src="beaver.mp3" clipBegin="65.69999999999999" clipEnd="66.76"/>
+        </par>
+        <par id="par-t0b0d9p0s0w1">
+            <text src="beaver.xml#t0b0d9p0s0w1"/>
+            <audio src="beaver.mp3" clipBegin="66.76" clipEnd="67.5"/>
+        </par>
+        <par id="par-t0b0d9p0s0w2">
+            <text src="beaver.xml#t0b0d9p0s0w2"/>
+            <audio src="beaver.mp3" clipBegin="67.5" clipEnd="68.23"/>
+        </par>
+        <par id="par-t0b0d9p0s0w3">
+            <text src="beaver.xml#t0b0d9p0s0w3"/>
+            <audio src="beaver.mp3" clipBegin="68.23" clipEnd="68.7"/>
+        </par>
+        <par id="par-t0b0d9p0s0w4">
+            <text src="beaver.xml#t0b0d9p0s0w4"/>
+            <audio src="beaver.mp3" clipBegin="68.7" clipEnd="69.67"/>
+        </par>
+        <par id="par-t0b0d9p0s0w5">
+            <text src="beaver.xml#t0b0d9p0s0w5"/>
+            <audio src="beaver.mp3" clipBegin="69.67" clipEnd="70.635"/>
+        </par>
+        <par id="par-t0b0d10p0s0w0">
+            <text src="beaver.xml#t0b0d10p0s0w0"/>
+            <audio src="beaver.mp3" clipBegin="70.635" clipEnd="71.61"/>
+        </par>
+        <par id="par-t0b0d10p0s0w1">
+            <text src="beaver.xml#t0b0d10p0s0w1"/>
+            <audio src="beaver.mp3" clipBegin="71.61" clipEnd="71.96000000000001"/>
+        </par>
+        <par id="par-t0b0d10p0s0w2">
+            <text src="beaver.xml#t0b0d10p0s0w2"/>
+            <audio src="beaver.mp3" clipBegin="71.96000000000001" clipEnd="73.08500000000001"/>
+        </par>
+        <par id="par-t0b0d11p0s0w0">
+            <text src="beaver.xml#t0b0d11p0s0w0"/>
+            <audio src="beaver.mp3" clipBegin="73.08500000000001" clipEnd="74.14"/>
+        </par>
+        <par id="par-t0b0d11p0s0w1">
+            <text src="beaver.xml#t0b0d11p0s0w1"/>
+            <audio src="beaver.mp3" clipBegin="74.14" clipEnd="74.64"/>
+        </par>
+        <par id="par-t0b0d11p0s0w2">
+            <text src="beaver.xml#t0b0d11p0s0w2"/>
+            <audio src="beaver.mp3" clipBegin="74.64" clipEnd="75.10000000000001"/>
+        </par>
+        <par id="par-t0b0d11p0s0w3">
+            <text src="beaver.xml#t0b0d11p0s0w3"/>
+            <audio src="beaver.mp3" clipBegin="75.10000000000001" clipEnd="75.51"/>
+        </par>
+        <par id="par-t0b0d11p0s1w0">
+            <text src="beaver.xml#t0b0d11p0s1w0"/>
+            <audio src="beaver.mp3" clipBegin="75.51" clipEnd="76.6"/>
+        </par>
+        <par id="par-t0b0d11p0s1w1">
+            <text src="beaver.xml#t0b0d11p0s1w1"/>
+            <audio src="beaver.mp3" clipBegin="76.6" clipEnd="77.29"/>
+        </par>
+        <par id="par-t0b0d11p0s1w2">
+            <text src="beaver.xml#t0b0d11p0s1w2"/>
+            <audio src="beaver.mp3" clipBegin="77.29" clipEnd="77.8"/>
+        </par>
+        <par id="par-t0b0d11p0s1w3">
+            <text src="beaver.xml#t0b0d11p0s1w3"/>
+            <audio src="beaver.mp3" clipBegin="77.8" clipEnd="77.99"/>
+        </par>
+        <par id="par-t0b0d11p0s2w0">
+            <text src="beaver.xml#t0b0d11p0s2w0"/>
+            <audio src="beaver.mp3" clipBegin="77.99" clipEnd="79.295"/>
+        </par>
+        <par id="par-t0b0d11p0s2w1">
+            <text src="beaver.xml#t0b0d11p0s2w1"/>
+            <audio src="beaver.mp3" clipBegin="79.295" clipEnd="79.49"/>
+        </par>
+        <par id="par-t0b0d11p0s2w2">
+            <text src="beaver.xml#t0b0d11p0s2w2"/>
+            <audio src="beaver.mp3" clipBegin="79.49" clipEnd="80.97"/>
+        </par>
+        <par id="par-t0b0d11p0s3w0">
+            <text src="beaver.xml#t0b0d11p0s3w0"/>
+            <audio src="beaver.mp3" clipBegin="80.97" clipEnd="81.79"/>
+        </par>
+        <par id="par-t0b0d11p0s3w1">
+            <text src="beaver.xml#t0b0d11p0s3w1"/>
+            <audio src="beaver.mp3" clipBegin="81.79" clipEnd="82.04"/>
+        </par>
+        <par id="par-t0b0d11p0s3w2">
+            <text src="beaver.xml#t0b0d11p0s3w2"/>
+            <audio src="beaver.mp3" clipBegin="82.04" clipEnd="83.19"/>
+        </par>
+    </body>
+</smil>

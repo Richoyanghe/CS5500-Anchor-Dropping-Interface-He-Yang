@@ -1,0 +1,105 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI>
+    <text xml:lang="crj" id="t0">
+        <body id="t0b0">
+
+            <div type="page" id="t0b0d0">
+                    <graphic url="pages/beaver1.jpg"/>
+                    <p id="t0b0d0p0">
+                            <s id="t0b0d0p0s0"><w id="t0b0d0p0s0w0">ᐧᐁᔥᑲᒡ</w>  <w id="t0b0d0p0s0w1">ᐁᔥᒄ</w> <w id="t0b0d0p0s0w2">ᐁ</w> <w id="t0b0d0p0s0w3">ᒌ</w></s>
+                            <s id="t0b0d0p0s1"><w id="t0b0d0p0s1w0">ᐋᐧᐃᔦᔮᔨᒡ</w> <w id="t0b0d0p0s1w1">ᐊᒥᔅᒄ</w> <w id="t0b0d0p0s1w2">ᐅᓱᐃ</w></s>
+                        <s></s>
+                        <s>written by:</s>
+                            <s>Rose Dixon.</s>
+                            <s>and read by:</s>
+                            <s>Ruth Salt.</s>
+                            <s>sound editing by:</s>
+                            <s>Ruth Salt</s>
+                            <s>text edited by:</s>
+                            <s>Ruth Salt.</s>
+                    </p>
+            </div>
+                <div type="page" id="t0b0d1">
+                        <graphic url="pages/beaver2.jpg"/>
+                        <p id="t0b0d1p0">
+                                <s id="t0b0d1p0s0"><w id="t0b0d1p0s0w0">ᒋᒋᔅᒉᔨᐦᑌᓈᐧᐋᐤ</w> <w id="t0b0d1p0s0w1">ᐧᐁᔅ</w> <w id="t0b0d1p0s0w2">ᐁ</w></s>
+                                <s id="t0b0d1p0s1"><w id="t0b0d1p0s1w0">ᐋᐸᑎᓰᑦ</w> <w id="t0b0d1p0s1w1">ᐊᒥᔅᒄ</w> <w id="t0b0d1p0s1w2">ᐁ</w> <w id="t0b0d1p0s1w3">ᑎᐱᔅᑳᔨᒡ</w>᙮</s>
+                        </p>
+                </div>
+                <div type="page" id="t0b0d2">
+                        <graphic url="pages/beaver3.jpg"/>
+                        <p id="t0b0d2p0">
+                                <s id="t0b0d2p0s0"><w id="t0b0d2p0s0w0">ᐊᓐ</w> <w id="t0b0d2p0s0w1">ᒫᒃ</w> <w id="t0b0d2p0s0w2">ᐊᒥᔅᒄ</w> <w id="t0b0d2p0s0w3">ᐁ</w></s>
+                                <s id="t0b0d2p0s1"><w id="t0b0d2p0s1w0">ᒌᔑᑳᔨᒡ</w> <w id="t0b0d2p0s1w1">ᓀᐹᑦ</w>᙮</s>
+                        </p>
+                </div>
+                <div type="page" id="t0b0d3">
+                        <graphic url="pages/beaver4.jpg"/>
+                        <p id="t0b0d3p0">
+                                <s id="t0b0d3p0s0"><w id="t0b0d3p0s0w0">ᐯᔭᐧᑳᐤ</w> <w id="t0b0d3p0s0w1">ᓈᔥᒡ</w> <w id="t0b0d3p0s0w2">ᐁ</w> <w id="t0b0d3p0s0w3">ᒥᔪᑎᐱᔅᑳᒡ</w> <w id="t0b0d3p0s0w4">ᑳ</w> <w id="t0b0d3p0s0w5">ᐃᑌᔨᐦᑕᐦᒃ</w> <w id="t0b0d3p0s0w6">ᐊᓐ</w> <w id="t0b0d3p0s0w7">ᐊᒥᔅᒄ</w> <w id="t0b0d3p0s0w8">ᒉ</w></s>
+                                <s id="t0b0d3p0s1"><w id="t0b0d3p0s1w0">ᓂᑑᐋᐸᑎᓰᑦ</w>, <w id="t0b0d3p0s1w1">ᐧᐄᔨᒡ</w> <w id="t0b0d3p0s1w2">ᐁ</w> <w id="t0b0d3p0s1w3">ᒌ</w> <w id="t0b0d3p0s1w4">ᐧᐄ</w></s>
+                                <s id="t0b0d3p0s2"><w id="t0b0d3p0s2w0">ᓂᑑᐅᔑᐦᑖᑦ</w>᙮</s>
+                        </p>
+                </div>
+                <div type="page" id="t0b0d4">
+                        <graphic url="pages/beaver5.jpg"/>
+                        <p id="t0b0d4p0">
+                                <s id="t0b0d4p0s0"><w id="t0b0d4p0s0w0">ᒉᒥᑲᒫᑦ</w> <w id="t0b0d4p0s0w1">ᒥᔥᑎᒄᐦ</w> <w id="t0b0d4p0s0w2">ᓈᔥᒡ</w> <w id="t0b0d4p0s0w3">ᐁ</w></s>
+                                <s id="t0b0d4p0s1"><w id="t0b0d4p0s1w0">ᒥᐦᒑᔅᑯᓯᔨᒡᐦ</w>᙮ <w id="t0b0d4p0s1w1">ᑌᐦᑯᐦᐅᑯᑦ</w> <w id="t0b0d4p0s1w2">ᐊᓂᔫᐦ</w> <w id="t0b0d4p0s1w3">ᒥᔥᑎᒄᐦ</w> <w id="t0b0d4p0s1w4">ᓂᐦᐋᐤ</w> <w id="t0b0d4p0s1w5">ᐊᓂᑦᐦ</w> <w id="t0b0d4p0s1w6">ᐅᓱᐦᒡ</w>᙮</s>
+                        </p>
+                </div>
+                <div type="page" id="t0b0d5">
+                        <graphic url="pages/beaver6.jpg"/>
+                        <p id="t0b0d5p0">
+                                <s id="t0b0d5p0s0"><w id="t0b0d5p0s0w0">ᓇᒧᐃ</w> <w id="t0b0d5p0s0w1">ᐅᐦᒋ</w> <w id="t0b0d5p0s0w2">ᐯᐦᑖᑰ</w> <w id="t0b0d5p0s0w3">ᐊᐧᐁᔫᐦ</w> <w id="t0b0d5p0s0w4">ᐋᑕ</w> <w id="t0b0d5p0s0w5">ᐁ</w> <w id="t0b0d5p0s0w6">ᒌ</w> <w id="t0b0d5p0s0w7">ᑖᒋᐦᐧᑫᑦ</w>, <w id="t0b0d5p0s0w8">ᐧᐄᒋᐦᐄᒄ</w>,</s>
+                                <s id="t0b0d5p0s1"><w id="t0b0d5p0s1w0">ᐧᐄᒋᐦᐄᒄ</w>, <w id="t0b0d5p0s1w1">ᓇᒧᐃ</w> <w id="t0b0d5p0s1w2">ᓂᒌ</w> <w id="t0b0d5p0s1w3">ᐋᐦᒌᓐ</w>᙮</s>
+                        </p>
+                </div>
+                <div type="page" id="t0b0d6">
+                        <graphic url="pages/beaver7.jpg"/>
+                        <p id="t0b0d6p0">
+                                <s id="t0b0d6p0s0"><w id="t0b0d6p0s0w0">ᓇᒧᐃ</w> <w id="t0b0d6p0s0w1">ᒫᒃ</w> <w id="t0b0d6p0s0w2">ᐅᐦᒋ</w> <w id="t0b0d6p0s0w3">ᐧᐄᒋᐦᐄᑰ</w></s>
+                                <s id="t0b0d6p0s1"><w id="t0b0d6p0s1w0">ᐊᐧᐁᔫᐦ</w>᙮ <w id="t0b0d6p0s1w1">ᒥᓯᐧᐁ</w> <w id="t0b0d6p0s1w2">ᐊᐧᐁᔫᐦ</w> <w id="t0b0d6p0s1w3">ᐁ</w> <w id="t0b0d6p0s1w4">ᒌ</w> <w id="t0b0d6p0s1w5">ᓂᐹᔨᒡᐦ</w> <w id="t0b0d6p0s1w6">ᐁ</w> <w id="t0b0d6p0s1w7">ᑎᐱᔅᑳᔨᒡ</w>᙮</s>
+                        </p>
+                </div>
+                <div type="page" id="t0b0d7">
+                        <graphic url="pages/beaver8.jpg"/>
+                        <p id="t0b0d7p0">
+                                <s id="t0b0d7p0s0"><w id="t0b0d7p0s0w0">ᐱᔦᑖᐱᓃᔨᒡ</w> <w id="t0b0d7p0s0w1">ᐱᔦᑖᔥᑎᒧᑌᔨᒡ</w></s>
+                                <s id="t0b0d7p0s1"><w id="t0b0d7p0s1w0">ᒋᔐᔮᒄᐦ</w> <w id="t0b0d7p0s1w1">ᐁ</w> <w id="t0b0d7p0s1w2">ᐱᐹᒧᑌᔨᒡᐦ</w>᙮ <w id="t0b0d7p0s1w3">ᐁᑯᐦ</w></s>
+                                <s id="t0b0d7p0s2"><w id="t0b0d7p0s2w0">ᐁᑖᑦ</w>, <w id="t0b0d7p0s2w1">ᐧᐄᒌᐦ</w> <w id="t0b0d7p0s2w2">ᒫ</w>, <w id="t0b0d7p0s2w3">ᓂᑕᐦᑯᐦᐁᓐ</w></s>
+                                <s id="t0b0d7p0s3"><w id="t0b0d7p0s3w0">ᐧᐁᓯᓐ</w> <w id="t0b0d7p0s3w1">ᓂᓱᐃ</w>᙮</s>
+                        </p>
+                </div>
+                <div type="page" id="t0b0d8">
+                        <graphic url="pages/beaver9.jpg"/>
+                        <p id="t0b0d8p0">
+                                <s id="t0b0d8p0s0"><w id="t0b0d8p0s0w0">ᐁᑯᐦ</w> <w id="t0b0d8p0s0w1">ᑮᐹ</w> <w id="t0b0d8p0s0w2">ᐧᐋᒋᐦᐄᑯᑦ</w> <w id="t0b0d8p0s0w3">ᐊᓂᔫᐦ</w></s>
+                                <s id="t0b0d8p0s1"><w id="t0b0d8p0s1w0">ᒋᔐᔮᒄᐦ</w>᙮ <w id="t0b0d8p0s1w1">ᐧᐃᔮᐸᐦᑎᒥᔨᒡᐦ</w> <w id="t0b0d8p0s1w2">ᐊᓂᔮ</w> <w id="t0b0d8p0s1w3">ᐅᓱᐃ</w> <w id="t0b0d8p0s1w4">ᒥᒎᓐ</w> <w id="t0b0d8p0s1w5">ᐁ</w> <w id="t0b0d8p0s1w6">ᓂᐱᑳᔒᔨᒡ</w>᙮</s>
+                        </p>
+                </div>
+                <div type="page" id="t0b0d9">
+                        <graphic url="pages/beaver10.jpg"/>
+                        <p id="t0b0d9p0">
+                                <s id="t0b0d9p0s0"><w id="t0b0d9p0s0w0">ᐧᐁᓵ</w>, <w id="t0b0d9p0s0w1">ᐄᑎᑰ</w>, <w id="t0b0d9p0s0w2">ᒥᒎᓐ</w> <w id="t0b0d9p0s0w3">ᐧᐁᓯᓐ</w> <w id="t0b0d9p0s0w4">ᓂᐱᑳᔔ</w> <w id="t0b0d9p0s0w5">ᒋᓱᐃ</w>᙮</s>
+                        </p>
+                </div>
+                <div type="page" id="t0b0d10">
+                        <graphic url="pages/beaver11.jpg"/>
+                        <p id="t0b0d10p0">
+                                <s id="t0b0d10p0s0"><w id="t0b0d10p0s0w0">ᒥᔮᑐᑦ</w> <w id="t0b0d10p0s0w1">ᐊᓐ</w> <w id="t0b0d10p0s0w2">ᐊᒥᔅᒄ</w>᙮</s>
+                        </p>
+                </div>
+                <div type="page" id="t0b0d11">
+                        <graphic url="pages/beaver12.jpg"/>
+                        <p id="t0b0d11p0">
+                                <s id="t0b0d11p0s0"><w id="t0b0d11p0s0w0">ᐁᑳᐧᐄ</w> <w id="t0b0d11p0s0w1">ᒫᑑᐦ</w>, <w id="t0b0d11p0s0w2">ᐄᑎᑰ</w> <w id="t0b0d11p0s0w3">ᐊᓂᔫᐦ</w></s>
+                                <s id="t0b0d11p0s1"><w id="t0b0d11p0s1w0">ᒋᔐᔮᒄᐦ</w>, <w id="t0b0d11p0s1w1">ᓄᐧᐃᒡ</w> <w id="t0b0d11p0s1w2">ᐧᐁᓯᓐ</w> <w id="t0b0d11p0s1w3">ᒋᑲ</w></s>
+                                <s id="t0b0d11p0s2"><w id="t0b0d11p0s2w0">ᐃᔮᐧᑳᑎᓯᓐ</w> <w id="t0b0d11p0s2w1">ᐁ</w> <w id="t0b0d11p0s2w2">ᐱᐹᒥᔥᑳᔨᓐ</w>᙮</s>
+                                <s id="t0b0d11p0s3"><w id="t0b0d11p0s3w0">ᒥᔦᔨᐦᑦᐦ</w> <w id="t0b0d11p0s3w1">ᒫ</w> <w id="t0b0d11p0s3w2">ᑏᑯᒡ</w>᙮</s>
+                        </p>
+                </div>
+            
+        </body>
+    </text>
+</TEI>
