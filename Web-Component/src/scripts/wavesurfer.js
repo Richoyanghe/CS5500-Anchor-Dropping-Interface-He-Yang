@@ -5,7 +5,6 @@ var wavesurfer;
 
 // Init & load audio file
 document.addEventListener("DOMContentLoaded", function () {
-  
   wavesurfer = WaveSurfer.create({
     container: document.querySelector("#waveform"),
     waveColor: "#A8DBA8",
@@ -15,8 +14,10 @@ document.addEventListener("DOMContentLoaded", function () {
       WaveSurfer.markers.create({
         markers: [
           {
+            id: "pointer",
             time: 0,
             label: "",
+            position : "top",
             color: "#ffaa11",
             draggable: true,
           },
@@ -39,8 +40,12 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 
   wavesurfer.on("marker-drop", function (marker) {
-    console.log("marker drop", marker.label);
-    readAlong.goToTime(marker.time);
+    if (marker.position === "top"){
+      readAlong.goToTime(marker.time);
+    }
+    else{
+      
+    }
   });
 
   let audio = document
@@ -49,3 +54,12 @@ document.addEventListener("DOMContentLoaded", function () {
 
   wavesurfer.load(audio);
 });
+
+function addMarker(text, time) {
+  return wavesurfer.markers.add({
+    time: time,
+    label: text,
+    color: "#ffaa11",
+    draggable: true,
+  });
+}

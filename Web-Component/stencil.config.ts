@@ -13,7 +13,8 @@ export const config: Config = {
         { src: 'scss/fonts', dest: 'build/assets/fonts' },
         { src: 'scripts', dest: 'assets/scripts' },
         { src: 'style', dest: 'assets/style' },
-        { src: '../test-data', dest: 'assets/test-data' }
+        { src: '../test-data', dest: 'assets/test-data' },
+        { src: '../test-data/pages', dest: 'assets/pages' }
       ]
     },
     {

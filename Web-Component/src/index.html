@@ -13,7 +13,7 @@
 
   <script src="https://unpkg.com/wavesurfer.js"></script>
   <script src="https://unpkg.com/wavesurfer.js/dist/plugin/wavesurfer.regions.js"></script>
-  <script src="https://unpkg.com/wavesurfer.js/dist/plugin/wavesurfer.timeline.js"></script>
+  <!-- <script src="https://unpkg.com/wavesurfer.js/dist/plugin/wavesurfer.timeline.js"></script> -->
   <script src="https://unpkg.com/wavesurfer.js/dist/plugin/wavesurfer.markers.js"></script>
 
   <link href="https://fonts.googleapis.com/css?family=Lato|Material+Icons|Material+Icons+Outlined" rel="stylesheet">
@@ -34,7 +34,7 @@
         <i class="glyphicon glyphicon-pause"></i> Pause
       </button>
       <button class="btn btn-primary" data-action="play-region">
-        <i class="glyphicon glyphicon-play"></i>
+        <i class="glyphicon glyphicon-retweet"></i>
         Play Region
       </button>
 
@@ -51,7 +51,7 @@
 
   <!-- Read Along Section -->
   <read-along text="assets/test-data/beaver/beaver.xml" alignment="assets/test-data/beaver/beaver.smil"
-    audio="assets/test-data/beaver/beaver.mp3" raw="assets/test-data/beaver/breaver.raw.xml" language="en">
+    audio="assets/test-data/beaver/beaver.mp3" language="en">
   <!-- <read-along text="assets/test-data/notaligned/output.xml" alignment="assets/test-data/notaligned/output.smil"
     audio="assets/test-data/notaligned/output.mp3" raw="assets/test-data/notaligned/output.raw.xml" language="en"> -->
     <span slot="read-along-header" class="anchor">Title</span>
@@ -65,20 +65,14 @@
       <div class="context-menu__item">
         <ul class="flex-container">
           <li>
-            <a href="#" class="context-menu__link" data-action="add-anchor" id="actionButton">
-              <i class="glyphicon glyphicon-indent-left"></i>TBC
+            <a href="#" class="context-menu__link" data-action="add-anchor">
+              <i class="glyphicon glyphicon-indent-left"></i> Insert Anchor
             </a>
-          </li>
-          <li>Delay <span id="range-slider-value"></span></li>
-          <li>
-            <a href="#" class="context-menu__link" data-action="remove-anchor">
-              <i class="glyphicon glyphicon-remove"></i>
+            <a href="#" class="context-menu__link" data-action="del-anchor">
+              <i class="glyphicon glyphicon-remove"></i> Delete Anchor
             </a>
           </li>
         </ul>
-        <div class="slidecontainer">
-          <input type="range" min="0" max="9999" value="1000" class="slider" id="range-slider">
-        </div>
       </div>
     </ul>
   </nav>

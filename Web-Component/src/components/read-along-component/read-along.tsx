@@ -121,7 +121,6 @@ export class ReadAlongComponent {
 
   @Listen('wheel', {target: 'window'})
   wheelHandler(event: MouseEvent): void {
-
     // only show guide if there is an actual highlighted element
     if (this.el.shadowRoot.querySelector('.reading')) {
       if (event['path'][0].classList.contains("sentence__word") ||
@@ -229,6 +228,11 @@ export class ReadAlongComponent {
     setTimeout(() => this.autoScroll = true, 100)
   }
 
+  /**
+   *  Highlight specific wording given by time.
+   *
+   * @param s
+   */
   goToTime(time: number): void {
     let query_el = this.returnWordClosestTo(time);
     if (!query_el) return;
@@ -238,8 +242,39 @@ export class ReadAlongComponent {
     this.addHighlightingTo(query_el);
     this.goTo(seek);
 
-    query_el.scrollIntoView(false);
-    this.scrollByHeight(query_el)
+    // Scroll horizontally (to different page) if needed
+    let current_page = ReadAlongComponent._getSentenceContainerOfWord(query_el).parentElement.id
+    if (current_page !== this.current_page) {
+      if (this.current_page !== undefined) {
+        this.scrollToPage(current_page)
+      }
+      this.current_page = current_page
+    }
+
+    // scroll vertically (through paragraph) if needed
+    if (this.inPageContentOverflow(query_el)) {
+      if (this.autoScroll) {
+        query_el.scrollIntoView(false);
+        this.scrollByHeight(query_el)
+      }
+    }
+    // scroll horizontal (through paragraph) if needed
+    if (this.inParagraphContentOverflow(query_el)) {
+      if (this.autoScroll) {
+        query_el.scrollIntoView(false);
+        this.scrollByWidth(query_el)
+      }
+    }
+  }
+
+  /**
+   * Get the Time for given element.
+   *
+   * @param ev
+   */
+  getTime(tag: number): number {
+    let seek = this.processed_alignment[tag][0]
+    return seek / 1000;
   }
 
   /**
@@ -325,25 +360,6 @@ export class ReadAlongComponent {
    * @param ev
    */
   playSprite(ev: MouseEvent): void {
-// debugger;
-    // let element = ev.target as HTMLElement;
-    // let word = document.getElementById('word') as HTMLInputElement;
-    // let before = document.getElementById('before') as HTMLInputElement; 
-    // let after = document.getElementById('after') as HTMLInputElement;
-
-    // word.value = element.innerHTML;
-    // before.value = element.previousElementSibling?.previousElementSibling?.innerHTML ?? "BEGIN"
-    // after.value = element.nextElementSibling?.nextElementSibling?.innerHTML ?? "END"
-
-    // element.classList.toggle("anchor");
-    // globalThis.selectedElement = element;
-    // let nodeList = [];
-    // for (let i=0; i < element.parentElement.childNodes.length; i++) {
-    //   nodeList.push(element.parentElement.childNodes[i]);
-    // }
-    // let full = nodeList.reduce((p, n) => {return p +n.innerHTML}, "");
-    // console.log(full);
-
     let tag = this.goToSeekAtEl(ev)
     if (!this.playing) {
       this.audio_howl_sprites.play(tag)
@@ -646,10 +662,11 @@ export class ReadAlongComponent {
   scrollByHeight(el: HTMLElement): void {
 
     let sent_container = ReadAlongComponent._getSentenceContainerOfWord(el) //get the direct parent sentence container
-    let anchor = el.parentElement.getBoundingClientRect()
 
+
+    let anchor = el.parentElement.getBoundingClientRect()
     sent_container.scrollBy({
-      top: sent_container.getBoundingClientRect().height - anchor.height,// - scrollY, // negative value acceptable
+      top: sent_container.getBoundingClientRect().height - anchor.height, // negative value acceptable
       left: 0,
       behavior: 'smooth'
     })
@@ -744,7 +761,6 @@ export class ReadAlongComponent {
    */
   componentDidLoad() {
 
-    
 
     this.processed_alignment = parseSMIL(this.alignment)
     this.assetsStatus.SMIL = Object.keys(this.processed_alignment).length ? LOADED : ERROR_LOADING
@@ -817,6 +833,7 @@ export class ReadAlongComponent {
 
     this.assetsStatus.XML = this.parsed_text.length ? LOADED : ERROR_LOADING
 
+    // Norman Add to global object
     globalThis.readAlong = this;
 
   }
@@ -1041,8 +1058,7 @@ export class ReadAlongComponent {
 
     return <span {...nodeProps}
                  class={'sentence__word theme--' + this.theme + " " + (props && props.attributes["class"] ? props.attributes["class"].value : "")}
-                 id={props.id} onClick={(ev) => {
-                  this.playSprite(ev)}}>{props.text}</span>
+                 id={props.id} onClick={(ev) => this.playSprite(ev)}>{props.text}</span>
   }
   /**
    * Render controls for ReadAlong
