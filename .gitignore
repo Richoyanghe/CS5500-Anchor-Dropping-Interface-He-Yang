@@ -127,3 +127,9 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# npm dependency
+anchor-tool-react/
+
+#garbage
+.DS*
